@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4443780791990532897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e5de51d68770e444b5d70883702f823, type: 3}
+  m_Name: RootNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: bce6f8d57d887204499ae0cb0a8bd6fb
+  position: {x: 0, y: 0}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+  agent: {fileID: 0}
+  child: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dbcdd72c69c0b94db0db2544514d9d1, type: 3}
+  m_Name: HunterTree
+  m_EditorClassIdentifier: 
+  rootNode: {fileID: -4443780791990532897}
+  treeState: 0
+  nodes:
+  - {fileID: -4443780791990532897}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8

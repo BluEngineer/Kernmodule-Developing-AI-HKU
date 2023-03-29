@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7869791311311914380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bbb417b484ee9e44b50115413d0855f, type: 3}
+  m_Name: RepeatNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 53be51769bcb42947a78d5de151bbb96
+  position: {x: 17, y: 163}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    hunger: 120
+    hungerIndicator: 8
+  agent: {fileID: 0}
+  child: {fileID: 4364376545300237898}
+  repeatCount: 0
+  repeatInfinite: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dbcdd72c69c0b94db0db2544514d9d1, type: 3}
+  m_Name: HEEEELP
+  m_EditorClassIdentifier: 
+  rootNode: {fileID: 479733748134045646}
+  treeState: 0
+  nodes:
+  - {fileID: 479733748134045646}
+  - {fileID: -7869791311311914380}
+  - {fileID: 4364376545300237898}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    hunger: 120
+    hungerIndicator: 8
+--- !u!114 &479733748134045646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e5de51d68770e444b5d70883702f823, type: 3}
+  m_Name: RootNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 1
+  guid: fc021feec3035f8409b7c70e89a06dc1
+  position: {x: -1.0000155, y: -0.14998794}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    hunger: 120
+    hungerIndicator: 8
+  agent: {fileID: 0}
+  child: {fileID: -7869791311311914380}
+--- !u!114 &4364376545300237898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b47a8f959071196439fe257a439550d9, type: 3}
+  m_Name: DebugLogNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 36b054e07c79d7040a36851de820a738
+  position: {x: 177, y: 324}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    hunger: 120
+    hungerIndicator: 8
+  agent: {fileID: 0}
+  message: Waarom werkt niet

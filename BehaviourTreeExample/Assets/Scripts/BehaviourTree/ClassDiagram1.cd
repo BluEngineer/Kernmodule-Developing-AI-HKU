@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AiAgent" Collapsed="true">
+    <Position X="6" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BCRBAAAAQCAIADKCAQAAAAEAAAAABJAARAQCAAgAAAA=</HashCode>
+      <FileName>Assets\Scripts\AiAgent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AISensor" Collapsed="true">
+    <Position X="12" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQEAAAAACpAAAQAAAEIEwAAAkABAwIAQAAABABAAAA=</HashCode>
+      <FileName>Assets\Scripts\AISensor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BaseScriptableObject" Collapsed="true">
+    <Position X="10.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\BaseScriptableObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DamagingProjectile" Collapsed="true">
+    <Position X="8.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAACAAgAAAAAAAAAAAAAAAIAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\DamagingProjectile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fruit" Collapsed="true">
+    <Position X="8.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUAAAAAACAACAAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Fruit.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="InstantiateData" Collapsed="true">
+    <Position X="13.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Assets\Scripts\InstantiateData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReturnFailureNode" Collapsed="true">
+    <Position X="14.25" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAEAAAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\ReturnFailureNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Spear" Collapsed="true">
+    <Position X="13.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQIAAAAACABAAAAAAAAAAAAAAAAAAAIAAAAABAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Spear.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BTBaseNode" Collapsed="true">
+    <Position X="1.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Assets\Scripts\BTNodes\BTBaseNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BehaviourTree.BehaviourTree" Collapsed="true">
+    <Position X="3.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgIAAEEAAEAAAAAEAAAAEAAIAQAAAIAAAAAAAIBA=</HashCode>
+      <FileName>Assets\Scripts\BehaviourTree\BehaviourTree.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BehaviourTree.Node" Collapsed="true">
+    <Position X="3.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAEAAASAAEAAAIgAEAAAAAAAEAEAAAAEAABA=</HashCode>
+      <FileName>Assets\Scripts\BehaviourTree\Nodes\Node.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ActionNode" Collapsed="true">
+    <Position X="6.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\BehaviourTree\Nodes\ActionNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompositeNode" Collapsed="true">
+    <Position X="11.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Assets\Scripts\BehaviourTree\Nodes\CompositeNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DecoratorNode" Collapsed="true">
+    <Position X="17.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Assets\Scripts\BehaviourTree\Nodes\DecoratorNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RootNode" Collapsed="true" HideInheritanceLine="true">
+    <Position X="3.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEACAAAAAAAAAAAAAAEAAAAEAABA=</HashCode>
+      <FileName>Assets\Scripts\BehaviourTree\Nodes\RootNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddMaxHpNode" Collapsed="true">
+    <Position X="7.75" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAECAAAAAAAAAAAAAAAEAAAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\BehaviourTree\Nodes\AddMaxHpNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChangeAgentScaleNode" Collapsed="true">
+    <Position X="9.75" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAEAAAAAAAAAAAAAAAAEAAAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\BehaviourTree\Nodes\ChangeAgentScaleNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChangeFeedbackTextNode" Collapsed="true">
+    <Position X="11.75" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAAEAAAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\BehaviourTree\Nodes\ChangeFeedbackTextNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DebugLogNode" Collapsed="true">
+    <Position X="7.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAEAAAAEAACA=</HashCode>
+      <FileName>Assets\Scripts\BehaviourTree\Nodes\DebugLogNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DisableChildObjectNode" Collapsed="true">
+    <Position X="9.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAEAAAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\BehaviourTree\Nodes\DisableChildObjectNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DoDamageNode" Collapsed="true">
+    <Position X="11.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAEAAAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\BehaviourTree\Nodes\DoDamageNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EatEdibleNode" Collapsed="true">
+    <Position X="14" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAEAAAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\BehaviourTree\Nodes\EatEdibleNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnableObjectNode" Collapsed="true">
+    <Position X="16.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAEAAAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\BehaviourTree\Nodes\EnableObjectNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FindRandomPositionInRangeNode" Collapsed="true">
+    <Position X="18.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAEAAAAAAAAAAgAAAAIEAABAEAAEA=</HashCode>
+      <FileName>Assets\Scripts\BehaviourTree\Nodes\FindRandomPositionInRangeNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FleeFromTargetNode" Collapsed="true">
+    <Position X="7.75" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgGAAAAAAAAAAAAAAAAEAAAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\BehaviourTree\Nodes\FleeFromTargetNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FullHealNode" Collapsed="true">
+    <Position X="9.75" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAEAAAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\BehaviourTree\Nodes\FullHealNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HealOverTimeNode" Collapsed="true">
+    <Position X="12" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAIAQAAAAAAAEAAAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\BehaviourTree\Nodes\HealOverTimeNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IsHealthOverNode" Collapsed="true">
+    <Position X="18.5" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAABAAAAAAAAAAAEAAAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\BehaviourTree\Nodes\IsHealthOverNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IsTaggedObjectVisibleNode" Collapsed="true">
+    <Position X="14" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAEAAAAAAAAAAAAAAAAEAAAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\BehaviourTree\Nodes\IsTaggedObjectVisibleNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HungryCheckNode" Collapsed="true">
+    <Position X="16.25" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAEAAAAAAAAAAAAAAAAEAAAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\BehaviourTree\Nodes\Monster\HungryCheckNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IncreaseBlackboardValue" Collapsed="true">
+    <Position X="7.75" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAEAAAAEAgAA=</HashCode>
+      <FileName>Assets\Scripts\BehaviourTree\Nodes\Monster\IncreaseBlackboardValue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MoveToGameobjectNode" Collapsed="true">
+    <Position X="9.75" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAEAAAAEAAAg=</HashCode>
+      <FileName>Assets\Scripts\BehaviourTree\Nodes\MoveToGameobjectNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MoveToGameObjectWithTagNode" Collapsed="true">
+    <Position X="11.75" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAEAAAEAAAAAAAAAAAAAAAAEAAAAEAAAg=</HashCode>
+      <FileName>Assets\Scripts\BehaviourTree\Nodes\MoveToGameObjectWithTagNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MoveToTargetPositionNode" Collapsed="true">
+    <Position X="14" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAACAAAAAAAEAAAAAAAAAAAAAAAAEAAAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\BehaviourTree\Nodes\MoveToTargetPositionNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RandomWaitNode" Collapsed="true">
+    <Position X="16.25" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAgAAAAAAAQAAAAAEAAAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\BehaviourTree\Nodes\RandomWaitNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RotateTowardsTarget" Collapsed="true">
+    <Position X="18.5" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAkBAAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\BehaviourTree\Nodes\RotateTowardsTarget.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SetAgentSpeedNode" Collapsed="true">
+    <Position X="14" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAEAAAAUAAAA=</HashCode>
+      <FileName>Assets\Scripts\BehaviourTree\Nodes\SetAgentSpeedNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SetAnimatorTriggerNode" Collapsed="true">
+    <Position X="16.25" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAEAAAAAAAAAAAAAAAAEAAAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\BehaviourTree\Nodes\SetAnimatorTriggerNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShootAtTargetNode" Collapsed="true">
+    <Position X="18.5" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAEAAAAAAAgAAAEABAAAAAAAAAAAAAAEACCAEEAAA=</HashCode>
+      <FileName>Assets\Scripts\BehaviourTree\Nodes\ShootAtTargetNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpawnHitEffectNode" Collapsed="true">
+    <Position X="7.75" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAAEAABAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\BehaviourTree\Nodes\SpawnHitEffectNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TriggerEnterNode" Collapsed="true">
+    <Position X="9.75" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAEAAAAAAAAAAAAAAAAEAAAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\BehaviourTree\Nodes\TriggerEnterNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WaitNode" Collapsed="true">
+    <Position X="12" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAgAAAAAAAIAAAAAEAAAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\BehaviourTree\Nodes\WaitNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ParralelNode" Collapsed="true">
+    <Position X="9.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAEAAAAFIAAA=</HashCode>
+      <FileName>Assets\Scripts\BehaviourTree\Nodes\ParralelNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SelectorNode" Collapsed="true">
+    <Position X="11.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAACAAEAAAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\BehaviourTree\Nodes\SelectorNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SequencerNode" Collapsed="true">
+    <Position X="13.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAgAAAAAAAAEAAAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\BehaviourTree\Nodes\SequencerNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ParralelRepeatNode" Collapsed="true">
+    <Position X="16.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAgAAAAAAEgAAAAAAAAAAAAAAAEAAAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\BehaviourTree\Nodes\ParralelRepeatNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RepeatNode" Collapsed="true">
+    <Position X="18.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAgAAAAAAEgAAAAAAAAAAAAAAAEAAAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\BehaviourTree\Nodes\RepeatNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="IEdible" Collapsed="true">
+    <Position X="11.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\IEdible.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IInteractable" Collapsed="true">
+    <Position X="13.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\IInteractable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="TaskStatus" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAIABAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\BTNodes\BTBaseNode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

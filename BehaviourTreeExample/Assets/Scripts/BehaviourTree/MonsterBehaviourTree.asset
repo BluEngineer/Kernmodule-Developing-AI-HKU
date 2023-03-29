@@ -1,0 +1,2845 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9209090385470845348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ef27078ae9888f40af1687051891f53, type: 3}
+  m_Name: EnableObjectNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: c4143801d877c5944a722359a80e0d23
+  position: {x: -1886, y: 1438}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  ChildObjectName: CFXR Smoke Source 3D
+--- !u!114 &-9111399114429097224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e84e43eda2b86594781a9c8872a38fa0, type: 3}
+  m_Name: WaitNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: b69f37894e698eb4c9565803ad318f76
+  position: {x: 1448, y: 2061.5}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  waitDuration: 0.4
+--- !u!114 &-9073175529336401408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e84e43eda2b86594781a9c8872a38fa0, type: 3}
+  m_Name: WaitNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: cafe6ffaac69f9f499aebacf90808859
+  position: {x: 1652.6776, y: 1183.3334}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  waitDuration: 1
+--- !u!114 &-8872212842123074147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e3da1dc0731e11429fc42cfbf3c49cd, type: 3}
+  m_Name: MoveToGameObjectWithTagNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 3f1339e1fc97c854399623c24be2958d
+  position: {x: -1836.0002, y: 1824.6669}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  objectTag: Hunter
+--- !u!114 &-8859075881967918152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3884d7c14d5f5234cb0e1d47e5a269b1, type: 3}
+  m_Name: SequencerNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 2d433c1031d2be348a4e584b8ed18ceb
+  position: {x: 832.28436, y: 651.6819}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  children:
+  - {fileID: -7520990263054870050}
+  - {fileID: -2366999458634776188}
+  - {fileID: 3493715815590509444}
+--- !u!114 &-8746935681332455597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edfbc32f425dd424f8944230ad7ed154, type: 3}
+  m_Name: FindRandomPositionInRangeNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 435494afd02e1144c924bd1ad9406e87
+  position: {x: 1778.3334, y: 1183.3334}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  rangeFromStartPoint: {x: 15, y: 0, z: 15}
+  localPositionRange: 0
+--- !u!114 &-8283133741437110234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bbb417b484ee9e44b50115413d0855f, type: 3}
+  m_Name: RepeatNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 1
+  guid: cbecd62b64b8b104aa8134b27d626c95
+  position: {x: 244.66664, y: 71.99999}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  child: {fileID: 4600908441926902837}
+  repeatCount: 0
+  repeatInfinite: 1
+--- !u!114 &-8256153617666770604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3884d7c14d5f5234cb0e1d47e5a269b1, type: 3}
+  m_Name: SequencerNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: adbf1920cabf8c847a086b6cfdc721bb
+  position: {x: -487, y: 213}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  children:
+  - {fileID: 5548598647841927969}
+  - {fileID: -8055348168605654762}
+--- !u!114 &-8055348168605654762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5d5fd982293504ebf5cde0d67ca11f, type: 3}
+  m_Name: IsHealthOverNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 0c3ee5c630bbe784e9d463e7daa3a1be
+  position: {x: -623, y: 346}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  healthTreshold: 20
+--- !u!114 &-7724159505165059261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3884d7c14d5f5234cb0e1d47e5a269b1, type: 3}
+  m_Name: SequencerNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 82a446882cd024142a05fbe67fb6fb81
+  position: {x: 857, y: 1362.5}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  children:
+  - {fileID: 8691176035470350065}
+  - {fileID: -2617959583590445935}
+  - {fileID: -4955987983565865840}
+  - {fileID: -1580015246345889304}
+--- !u!114 &-7656101282598700634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3884d7c14d5f5234cb0e1d47e5a269b1, type: 3}
+  m_Name: SequencerNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: f5f022dc1be11c6469a82df61f8f3eaf
+  position: {x: -1272, y: 674}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  children:
+  - {fileID: 5330908647529737349}
+  - {fileID: 874223336715341086}
+  - {fileID: -6624968581589366000}
+--- !u!114 &-7646930887961204801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e84e43eda2b86594781a9c8872a38fa0, type: 3}
+  m_Name: WaitNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: fe450e56fa58ecf46811cb3adffc524b
+  position: {x: 1078, y: 2060.5}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  waitDuration: 1
+--- !u!114 &-7520990263054870050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f112f806afb1e1945b67f26616b0fcd1, type: 3}
+  m_Name: DisableChildObjectNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: da1b10593e50caf448cd374f83996c1c
+  position: {x: 710.5, y: 816.00006}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  ChildObjectName: CFXR Smoke Source 3D
+--- !u!114 &-7462301911592551873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e3da1dc0731e11429fc42cfbf3c49cd, type: 3}
+  m_Name: MoveToGameObjectWithTagNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 62c7bdcd3f1bcbb498ce2727f4adca65
+  position: {x: -1684, y: 1250}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  objectTag: Hunter
+--- !u!114 &-7366883283320964026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e933d76458cb7b54997cd56186a2cb55, type: 3}
+  m_Name: IsTaggedObjectVisibleNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 6f9639c13291fe14394365e49c43bba7
+  position: {x: -1064.5801, y: 1324}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  tag: Hunter
+--- !u!114 &-7304243274409135676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90c2e1e96d60fd643b81b8260762c33a, type: 3}
+  m_Name: IncreaseBlackboardValue
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 04e84d0908962ec4b9f6d3ea9448366c
+  position: {x: 2366.9285, y: 2061.5}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  valueIncrease: -20
+--- !u!114 &-7220836811584012398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d025baff4e614004793fd13c27d8d7e8, type: 3}
+  m_Name: SpawnHitEffectNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: d4868c61ba05e254185212ee388965b7
+  position: {x: -1440.0002, y: 1824.4999}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  hitEffect: {fileID: 1676360950748562185, guid: a74c69d830fdb6243af5a7af714301cb,
+    type: 3}
+  spawnOffset: {x: 0, y: 0.45, z: 0}
+--- !u!114 &-7130990717239273449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3884d7c14d5f5234cb0e1d47e5a269b1, type: 3}
+  m_Name: SequencerNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: a7ad5502b0fb48a4eae2c29b5f3176d4
+  position: {x: 2110, y: 941}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  children:
+  - {fileID: -9073175529336401408}
+  - {fileID: -8746935681332455597}
+  - {fileID: -166862232044770188}
+  - {fileID: -3414294278042725181}
+  - {fileID: -5133155456126148099}
+  - {fileID: 3103886546945564271}
+--- !u!114 &-7122133950728911324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f112f806afb1e1945b67f26616b0fcd1, type: 3}
+  m_Name: DisableChildObjectNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: d12dd590c199a214a90a71a82c9dc5bb
+  position: {x: -808, y: 1324}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  ChildObjectName: AngryEyes
+--- !u!114 &-6836189439699706203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea8982bf192c39b4daee8079ed0db828, type: 3}
+  m_Name: EatEdibleNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: d87c39942007de541957ed90c261ebea
+  position: {x: 1591, y: 2061.5}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+--- !u!114 &-6764811416878774155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62e42292ef3006f449c9a626a4a4b548, type: 3}
+  m_Name: SetAgentSpeedNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: e27ce1db378afa841a22b8bc032cd220
+  position: {x: -363, y: 1324}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  newAgentSpeed: 10
+--- !u!114 &-6624968581589366000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93aeeda041249d341b0017b906e32eb5, type: 3}
+  m_Name: SelectorNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 73eb55f3fcb55344e9d3770ef82d03f0
+  position: {x: -1010, y: 854}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  children:
+  - {fileID: -4130948289726195329}
+  - {fileID: -3482531212861385767}
+--- !u!114 &-6526045401648960427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef5008be345c9f64b8c18489731a41f8, type: 3}
+  m_Name: SetAnimatorTriggerNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 9c50a77232d20dc4f8d31f730a5bd0b9
+  position: {x: 1200, y: 2061.5}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  triggerName: Eat
+--- !u!114 &-6245706098633862723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e3da1dc0731e11429fc42cfbf3c49cd, type: 3}
+  m_Name: MoveToGameObjectWithTagNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 69e2b6a7b846c1f47ba567c983a0b0ae
+  position: {x: 551, y: 2060.5}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  objectTag: Fruit
+--- !u!114 &-5919487681548916705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3884d7c14d5f5234cb0e1d47e5a269b1, type: 3}
+  m_Name: SequencerNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 07a8ce536adc07c47857faf625d61c4b
+  position: {x: -1732.3336, y: 1625.3336}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  children:
+  - {fileID: 6418020394114258984}
+  - {fileID: 754653272100497175}
+  - {fileID: 9119331898561361264}
+  - {fileID: -8872212842123074147}
+  - {fileID: -3478670154174793855}
+  - {fileID: -7220836811584012398}
+  - {fileID: 2266355859410656791}
+--- !u!114 &-5574028131570722141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3884d7c14d5f5234cb0e1d47e5a269b1, type: 3}
+  m_Name: SequencerNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: dd5f2ea246071c142aad30cc2598d70d
+  position: {x: -42.322475, y: 212.99998}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  children:
+  - {fileID: 2839662426158544944}
+  - {fileID: -5490495494128710408}
+--- !u!114 &-5490495494128710408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 264991a340e912246bc64bd7de54dc51, type: 3}
+  m_Name: RotateTowardsTarget
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 7ff720f924deaaa488b30dba441ca3f7
+  position: {x: 52.50005, y: 326}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  rotationSpeed: 10
+--- !u!114 &-5268680039540013085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b47a8f959071196439fe257a439550d9, type: 3}
+  m_Name: DebugLogNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: b54e03fcf8076bf4286dbbb7208dd290
+  position: {x: 31, y: 1324}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  message: Flee executed
+--- !u!114 &-5133155456126148099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62e42292ef3006f449c9a626a4a4b548, type: 3}
+  m_Name: SetAgentSpeedNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 1d389d9aedf33bf49b44b23f3c11119f
+  position: {x: 2468.05, y: 1183.0002}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  newAgentSpeed: 2
+--- !u!114 &-5005783718636059607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e84e43eda2b86594781a9c8872a38fa0, type: 3}
+  m_Name: WaitNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 8e99c61d2005cb04fb58b9af2f79c832
+  position: {x: 2609.9285, y: 2061.5}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  waitDuration: 1.5
+--- !u!114 &-4955987983565865840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e3da1dc0731e11429fc42cfbf3c49cd, type: 3}
+  m_Name: MoveToGameObjectWithTagNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 273ec1ab79f20f84d9b054e93de5ce9a
+  position: {x: 886.25006, y: 1542.5}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  objectTag: Fruit
+--- !u!114 &-4879432701364123316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d07499513eddd40448be4237bf4cd6dd, type: 3}
+  m_Name: TriggerEnterNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 59ff9ffba34667147aa6ebeb2d296f9e
+  position: {x: -1581.3337, y: 1453.3336}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  tag: Hunter
+--- !u!114 &-4805695600576942412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a36a24581258b72408170bb8c0f871a3, type: 3}
+  m_Name: ChangeFeedbackTextNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: ac1d5fb7759808a4db0048202a1706f8
+  position: {x: 841, y: 2061.5}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  newText: Eating..
+--- !u!114 &-4802324702201136098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d07499513eddd40448be4237bf4cd6dd, type: 3}
+  m_Name: TriggerEnterNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: a01dc30b30b02274497ff7be03d39647
+  position: {x: 1007, y: 1685.5}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  tag: Fruit
+--- !u!114 &-4687601070088155970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d9b48bf6603d794caf4867d0d55ff87, type: 3}
+  m_Name: FleeFromTargetNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: bcafe7cdd95f1d341ad079fc0fa6baee
+  position: {x: -169.41673, y: 1324}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  detectDistance: 30
+  fleeDistance: 50
+--- !u!114 &-4619744598369411658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93aeeda041249d341b0017b906e32eb5, type: 3}
+  m_Name: SelectorNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: cd97d4a692e37c64badc52ead55b764d
+  position: {x: 1164, y: 1204}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  children:
+  - {fileID: -7724159505165059261}
+  - {fileID: 4023471005767904072}
+--- !u!114 &-4130948289726195329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3884d7c14d5f5234cb0e1d47e5a269b1, type: 3}
+  m_Name: SequencerNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 1
+  guid: 9e86e31e4939d5c4389a518749449615
+  position: {x: -1783.9996, y: 1064.498}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  children:
+  - {fileID: 3877391490459856685}
+  - {fileID: 7123758821048795908}
+  - {fileID: -85524091460318065}
+  - {fileID: 3574074158346188471}
+  - {fileID: -7462301911592551873}
+  - {fileID: 5877931007269643707}
+  - {fileID: 2563406630756393470}
+--- !u!114 &-3922641426455571461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7505f1e40a6116742b98b892f4fcd677, type: 3}
+  m_Name: ChangeAgentScaleNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: d9740ac150e95cd42ac7f87d62e34194
+  position: {x: 1787, y: 2061.5}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  sizeMultiplier: 0.3
+--- !u!114 &-3482531212861385767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3884d7c14d5f5234cb0e1d47e5a269b1, type: 3}
+  m_Name: SequencerNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 6b05b5f32a581714fa70129f662e468c
+  position: {x: -664, y: 1067}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  children:
+  - {fileID: -7366883283320964026}
+  - {fileID: -7122133950728911324}
+  - {fileID: 6270898346760941454}
+  - {fileID: -6764811416878774155}
+  - {fileID: -4687601070088155970}
+  - {fileID: -5268680039540013085}
+  - {fileID: 9009061475575141063}
+--- !u!114 &-3478670154174793855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e84e43eda2b86594781a9c8872a38fa0, type: 3}
+  m_Name: WaitNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: df7764e02e4756048aada6017d26027d
+  position: {x: -1581.3336, y: 1824.6669}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  waitDuration: 0.4
+--- !u!114 &-3414294278042725181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a36a24581258b72408170bb8c0f871a3, type: 3}
+  m_Name: ChangeFeedbackTextNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 91b193447075a7a4d92fba488dfa1e36
+  position: {x: 2233.9785, y: 1183.3334}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  newText: Wandering..
+--- !u!114 &-3184995632401098578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e5de51d68770e444b5d70883702f823, type: 3}
+  m_Name: RootNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 1
+  guid: 26909dda50f430f4183275e5c9d72c2a
+  position: {x: 112.00012, y: -536.6019}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  child: {fileID: 1849595980722824173}
+--- !u!114 &-2617959583590445935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a36a24581258b72408170bb8c0f871a3, type: 3}
+  m_Name: ChangeFeedbackTextNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 4a5636f5f265add46966bf77d7901484
+  position: {x: 639, y: 1542.5}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  newText: Moving to food..
+--- !u!114 &-2366999458634776188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93aeeda041249d341b0017b906e32eb5, type: 3}
+  m_Name: SelectorNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 08480b0579cb7e74ca50053ee028ba90
+  position: {x: 1488, y: 815.5}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  children:
+  - {fileID: 3656429563423232569}
+  - {fileID: -7130990717239273449}
+--- !u!114 &-2091392711174186099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3884d7c14d5f5234cb0e1d47e5a269b1, type: 3}
+  m_Name: SequencerNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 4a6123b4d0862d04dad6fa1741428b3e
+  position: {x: 1200, y: 1874.5}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  children:
+  - {fileID: -6245706098633862723}
+  - {fileID: -4805695600576942412}
+  - {fileID: -7646930887961204801}
+  - {fileID: -6526045401648960427}
+  - {fileID: -9111399114429097224}
+  - {fileID: -6836189439699706203}
+  - {fileID: -3922641426455571461}
+  - {fileID: 2509691842213529029}
+  - {fileID: 8711452044071958775}
+  - {fileID: -7304243274409135676}
+  - {fileID: -5005783718636059607}
+--- !u!114 &-1580015246345889304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3884d7c14d5f5234cb0e1d47e5a269b1, type: 3}
+  m_Name: SequencerNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 22ac158eff253764680872c6775ea31f
+  position: {x: 1155, y: 1542.5}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  children:
+  - {fileID: -4802324702201136098}
+  - {fileID: 964655876662485654}
+--- !u!114 &-1305877109664618586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc8c0e94ca20c9e438ffcfa22ca0fa60, type: 3}
+  m_Name: HungryCheckNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 6bbf336ebbf6888469f0bc4ca2fe64dc
+  position: {x: 703, y: 1204}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  hungerTreshold: 25
+--- !u!114 &-179536528525709989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ef27078ae9888f40af1687051891f53, type: 3}
+  m_Name: EnableObjectNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: ee4105f9daa0129439f66c3dda4ed239
+  position: {x: -2083, y: 1438}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  ChildObjectName: AngryEyes
+--- !u!114 &-166862232044770188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 089c5fb413bf7aa4b89875c839a5e162, type: 3}
+  m_Name: RandomWaitNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 1195cb77dbaf8aa4390487b69cbdfd99
+  position: {x: 2056, y: 1183.3335}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  waitMinMax: {x: 4, y: 7}
+--- !u!114 &-85524091460318065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62e42292ef3006f449c9a626a4a4b548, type: 3}
+  m_Name: SetAgentSpeedNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: d92a8365e505d384eab714e002c94192
+  position: {x: -2074.5002, y: 1245.5}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  newAgentSpeed: 12
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dbcdd72c69c0b94db0db2544514d9d1, type: 3}
+  m_Name: MonsterBehaviourTree
+  m_EditorClassIdentifier: 
+  rootNode: {fileID: -3184995632401098578}
+  treeState: 0
+  nodes:
+  - {fileID: -3184995632401098578}
+  - {fileID: 1651430963307652277}
+  - {fileID: 4078622438320483679}
+  - {fileID: 7364419637739800294}
+  - {fileID: -8283133741437110234}
+  - {fileID: -2366999458634776188}
+  - {fileID: 3656429563423232569}
+  - {fileID: -7130990717239273449}
+  - {fileID: -9073175529336401408}
+  - {fileID: 3103886546945564271}
+  - {fileID: -1305877109664618586}
+  - {fileID: -9111399114429097224}
+  - {fileID: 781774840771191904}
+  - {fileID: -4619744598369411658}
+  - {fileID: -7724159505165059261}
+  - {fileID: 4023471005767904072}
+  - {fileID: 8691176035470350065}
+  - {fileID: -5133155456126148099}
+  - {fileID: -8746935681332455597}
+  - {fileID: -1580015246345889304}
+  - {fileID: -4802324702201136098}
+  - {fileID: -6836189439699706203}
+  - {fileID: -7304243274409135676}
+  - {fileID: 863592429379011989}
+  - {fileID: 7229645117999690326}
+  - {fileID: 4575887716719879213}
+  - {fileID: -5005783718636059607}
+  - {fileID: -166862232044770188}
+  - {fileID: 8088127578851420625}
+  - {fileID: -4130948289726195329}
+  - {fileID: -5268680039540013085}
+  - {fileID: -85524091460318065}
+  - {fileID: -7462301911592551873}
+  - {fileID: 4600908441926902837}
+  - {fileID: 5877931007269643707}
+  - {fileID: 5330908647529737349}
+  - {fileID: -4879432701364123316}
+  - {fileID: 2563406630756393470}
+  - {fileID: -6526045401648960427}
+  - {fileID: 2561866854937060996}
+  - {fileID: 754653272100497175}
+  - {fileID: 6418020394114258984}
+  - {fileID: -5919487681548916705}
+  - {fileID: -5490495494128710408}
+  - {fileID: -3414294278042725181}
+  - {fileID: 6389177782524904032}
+  - {fileID: -4805695600576942412}
+  - {fileID: 7123758821048795908}
+  - {fileID: -2617959583590445935}
+  - {fileID: 1849595980722824173}
+  - {fileID: 3212163666812724117}
+  - {fileID: -4955987983565865840}
+  - {fileID: -6245706098633862723}
+  - {fileID: 964655876662485654}
+  - {fileID: -2091392711174186099}
+  - {fileID: 2657446318228391364}
+  - {fileID: -5574028131570722141}
+  - {fileID: 2839662426158544944}
+  - {fileID: -6624968581589366000}
+  - {fileID: -7656101282598700634}
+  - {fileID: 3877391490459856685}
+  - {fileID: -3482531212861385767}
+  - {fileID: -4687601070088155970}
+  - {fileID: 6270898346760941454}
+  - {fileID: -7366883283320964026}
+  - {fileID: -6764811416878774155}
+  - {fileID: 874223336715341086}
+  - {fileID: -8055348168605654762}
+  - {fileID: 5548598647841927969}
+  - {fileID: -8256153617666770604}
+  - {fileID: 9009061475575141063}
+  - {fileID: 2266355859410656791}
+  - {fileID: -8859075881967918152}
+  - {fileID: -9209090385470845348}
+  - {fileID: -7520990263054870050}
+  - {fileID: 4638293055829913288}
+  - {fileID: 3493715815590509444}
+  - {fileID: -7122133950728911324}
+  - {fileID: -179536528525709989}
+  - {fileID: 3574074158346188471}
+  - {fileID: -3922641426455571461}
+  - {fileID: 8711452044071958775}
+  - {fileID: -7220836811584012398}
+  - {fileID: -8872212842123074147}
+  - {fileID: -7646930887961204801}
+  - {fileID: -3478670154174793855}
+  - {fileID: 9119331898561361264}
+  - {fileID: 2509691842213529029}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+--- !u!114 &754653272100497175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef5008be345c9f64b8c18489731a41f8, type: 3}
+  m_Name: SetAnimatorTriggerNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: ac189541dd24e75488f9c75d35e8681b
+  position: {x: -2306, y: 1824.6667}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  triggerName: Attack
+--- !u!114 &781774840771191904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62e42292ef3006f449c9a626a4a4b548, type: 3}
+  m_Name: SetAgentSpeedNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: f74d0d2fe184fe94ea1237f887001b0d
+  position: {x: 940.00006, y: 1204}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  newAgentSpeed: 4.5
+--- !u!114 &863592429379011989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edfbc32f425dd424f8944230ad7ed154, type: 3}
+  m_Name: FindRandomPositionInRangeNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: b519ce7c974f4e84ea87c447233bc121
+  position: {x: 1424.6776, y: 1534.6669}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  rangeFromStartPoint: {x: 50, y: 0, z: 50}
+  localPositionRange: 0
+--- !u!114 &874223336715341086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b47a8f959071196439fe257a439550d9, type: 3}
+  m_Name: DebugLogNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: ddd639bc995b5b44aa47d43a0a24a6ba
+  position: {x: -1258, y: 854}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  message: '     VISIBLe'
+--- !u!114 &964655876662485654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3876a4f6edc2e544c8fa2582446d53ff, type: 3}
+  m_Name: ParralelNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: f365dfdc27299f344ac2f4de3cd6e2f6
+  position: {x: 1200, y: 1685.5}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  children:
+  - {fileID: -2091392711174186099}
+--- !u!114 &1651430963307652277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bbb417b484ee9e44b50115413d0855f, type: 3}
+  m_Name: RepeatNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 1
+  guid: be037b96eb2a163408f62df9c78e9b7a
+  position: {x: -206.00003, y: -49.677486}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  child: {fileID: 4078622438320483679}
+  repeatCount: 0
+  repeatInfinite: 1
+--- !u!114 &1849595980722824173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3876a4f6edc2e544c8fa2582446d53ff, type: 3}
+  m_Name: ParralelNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: f231a1985b05216419071166f1e7186b
+  position: {x: 182.66685, y: -183.26866}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  children:
+  - {fileID: 1651430963307652277}
+  - {fileID: -8283133741437110234}
+--- !u!114 &2266355859410656791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e29a2344c9d1d6b4f8cd7ab8ee6ab067, type: 3}
+  m_Name: DoDamageNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 13cfbf0a1fabb4d46a01783460ef776f
+  position: {x: -1241.3335, y: 1824.7515}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  damage: 35
+--- !u!114 &2509691842213529029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9592f502404ce4647b35960632119823, type: 3}
+  m_Name: AddMaxHpNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: a64595e126de6af46917bea2ae70ab78
+  position: {x: 2036, y: 2061.5}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  additionalHp: 35
+--- !u!114 &2561866854937060996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3876a4f6edc2e544c8fa2582446d53ff, type: 3}
+  m_Name: ParralelNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 5c4330097c10a7f47b29996800fb94c8
+  position: {x: -1394, y: 1453}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  children:
+  - {fileID: -5919487681548916705}
+--- !u!114 &2563406630756393470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3884d7c14d5f5234cb0e1d47e5a269b1, type: 3}
+  m_Name: SequencerNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: e8db1e098c1e5ee4fba67226d70269fe
+  position: {x: -1272, y: 1250}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  children:
+  - {fileID: -4879432701364123316}
+  - {fileID: 2561866854937060996}
+--- !u!114 &2657446318228391364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bbb417b484ee9e44b50115413d0855f, type: 3}
+  m_Name: RepeatNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: b8f80b5a199e5014ab6b051a4339f454
+  position: {x: -221.33307, y: -398.602}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  child: {fileID: 0}
+  repeatCount: 300
+  repeatInfinite: 0
+--- !u!114 &2839662426158544944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d07499513eddd40448be4237bf4cd6dd, type: 3}
+  m_Name: TriggerEnterNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 7dee050e571e7344fb3ac64a99978708
+  position: {x: -136.32251, y: 326}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  tag: Hunter
+--- !u!114 &3103886546945564271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ae155ec22b0c304cafcd568a01a370e, type: 3}
+  m_Name: MoveToTargetPositionNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: dabc2690054d9d14c8b255da4b4628a8
+  position: {x: 2665.9026, y: 1183.3334}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  timer: 0
+--- !u!114 &3212163666812724117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea8982bf192c39b4daee8079ed0db828, type: 3}
+  m_Name: EatEdibleNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: f8d9f309b0a5b7b439ab12a9ce6f462d
+  position: {x: -395.9998, y: -399.26868}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+--- !u!114 &3493715815590509444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f112f806afb1e1945b67f26616b0fcd1, type: 3}
+  m_Name: DisableChildObjectNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: c1d940cf3f537f24db15149ec2b2a207
+  position: {x: 902.50006, y: 816.00006}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  ChildObjectName: AngryEyes
+--- !u!114 &3574074158346188471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3884d7c14d5f5234cb0e1d47e5a269b1, type: 3}
+  m_Name: SequencerNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 5ee0fde1d9e1a5945ac075127ff9aebd
+  position: {x: -1871, y: 1247}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  children:
+  - {fileID: -179536528525709989}
+  - {fileID: -9209090385470845348}
+--- !u!114 &3656429563423232569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3884d7c14d5f5234cb0e1d47e5a269b1, type: 3}
+  m_Name: SequencerNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 41d36345db874b444abf00c5b26cd7d2
+  position: {x: 930.9999, y: 990.0001}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  children:
+  - {fileID: -1305877109664618586}
+  - {fileID: 781774840771191904}
+  - {fileID: -4619744598369411658}
+--- !u!114 &3877391490459856685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5d5fd982293504ebf5cde0d67ca11f, type: 3}
+  m_Name: IsHealthOverNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 3d8f9c419b5d3de45a01421ee4ae6ed3
+  position: {x: -2500, y: 1250}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  healthTreshold: 75
+--- !u!114 &4023471005767904072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3884d7c14d5f5234cb0e1d47e5a269b1, type: 3}
+  m_Name: SequencerNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 4249e9d95856a7b4ea81c15db08070c2
+  position: {x: 1579, y: 1362.5}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  children:
+  - {fileID: 863592429379011989}
+  - {fileID: 6389177782524904032}
+  - {fileID: 4575887716719879213}
+  - {fileID: 7229645117999690326}
+  - {fileID: 8088127578851420625}
+--- !u!114 &4078622438320483679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3876a4f6edc2e544c8fa2582446d53ff, type: 3}
+  m_Name: ParralelNode
+  m_EditorClassIdentifier: 
+  state: 2
+  started: 0
+  guid: 96bb20b75fa039e48b1c61ef47b5f72a
+  position: {x: -209.00003, y: 72.00002}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  children:
+  - {fileID: 7364419637739800294}
+  - {fileID: -5574028131570722141}
+--- !u!114 &4575887716719879213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e84e43eda2b86594781a9c8872a38fa0, type: 3}
+  m_Name: WaitNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 1c698eb3e579fc84983de66c82d94eb1
+  position: {x: 1899, y: 1533.5}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  waitDuration: 0.5
+--- !u!114 &4600908441926902837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93aeeda041249d341b0017b906e32eb5, type: 3}
+  m_Name: SelectorNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 1
+  guid: 491bfadddd44eea4882ea534edbefdcf
+  position: {x: 321.33344, y: 483.3333}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  children:
+  - {fileID: -7656101282598700634}
+  - {fileID: -8859075881967918152}
+--- !u!114 &4638293055829913288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ef27078ae9888f40af1687051891f53, type: 3}
+  m_Name: EnableObjectNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 77a3adb1a00e425478b96b07107b394f
+  position: {x: -25.000107, y: 72}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  ChildObjectName: 
+--- !u!114 &5330908647529737349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e933d76458cb7b54997cd56186a2cb55, type: 3}
+  m_Name: IsTaggedObjectVisibleNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 1
+  guid: 0bb9d644450499e40afb0b99d0dd2094
+  position: {x: -1543.6669, y: 854}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  tag: Hunter
+--- !u!114 &5548598647841927969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62e42292ef3006f449c9a626a4a4b548, type: 3}
+  m_Name: SetAgentSpeedNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 9dbe7f54dbc7b804ab3e84c842ed4186
+  position: {x: -432, y: 346}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  newAgentSpeed: 3
+--- !u!114 &5877931007269643707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e84e43eda2b86594781a9c8872a38fa0, type: 3}
+  m_Name: WaitNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 8ffb7c5c4429b9e409179a3fd2e93bc9
+  position: {x: -1415, y: 1250}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  waitDuration: 0.005
+--- !u!114 &6270898346760941454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a36a24581258b72408170bb8c0f871a3, type: 3}
+  m_Name: ChangeFeedbackTextNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: c46a5448e54dd3a42bf2a955b3c7208c
+  position: {x: -595.3333, y: 1324}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  newText: Fleeing!
+--- !u!114 &6389177782524904032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a36a24581258b72408170bb8c0f871a3, type: 3}
+  m_Name: ChangeFeedbackTextNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: fd723bbd093d6ce40bfce44a39bc98dd
+  position: {x: 1680, y: 1534.5}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  newText: Hungry..
+--- !u!114 &6418020394114258984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e84e43eda2b86594781a9c8872a38fa0, type: 3}
+  m_Name: WaitNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 5795863acf0e65f4b879c536a2e340f7
+  position: {x: -2430, y: 1824.6667}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  waitDuration: 0.6
+--- !u!114 &7123758821048795908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a36a24581258b72408170bb8c0f871a3, type: 3}
+  m_Name: ChangeFeedbackTextNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 88ea11692a1f9d545bddac436ba5a98c
+  position: {x: -2320, y: 1245.3334}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  newText: Charge!
+--- !u!114 &7229645117999690326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ae155ec22b0c304cafcd568a01a370e, type: 3}
+  m_Name: MoveToTargetPositionNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 0c94e73e721286946842b58365475dd4
+  position: {x: 2036, y: 1534.5}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  timer: 0
+--- !u!114 &7364419637739800294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90c2e1e96d60fd643b81b8260762c33a, type: 3}
+  m_Name: IncreaseBlackboardValue
+  m_EditorClassIdentifier: 
+  state: 2
+  started: 0
+  guid: 44695e7699d727948a170cb7b7ddb666
+  position: {x: -279.33334, y: 213.33333}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 80.54309
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  valueIncrease: 0.025
+--- !u!114 &8088127578851420625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 089c5fb413bf7aa4b89875c839a5e162, type: 3}
+  m_Name: RandomWaitNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 64f75f33a4b24ae4c93044687a84eca6
+  position: {x: 2258, y: 1534.5}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  waitMinMax: {x: 1, y: 4}
+--- !u!114 &8691176035470350065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e933d76458cb7b54997cd56186a2cb55, type: 3}
+  m_Name: IsTaggedObjectVisibleNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: d5a35c68a56c87e4a9aa093293d31ac4
+  position: {x: 385.22928, y: 1542.6667}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  tag: Fruit
+--- !u!114 &8711452044071958775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7e74df865506944c8ef98c2117d6f08, type: 3}
+  m_Name: FullHealNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 92d34b84750a0504fa094fa0690628bc
+  position: {x: 2215.9285, y: 2061.5}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+--- !u!114 &9009061475575141063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e84e43eda2b86594781a9c8872a38fa0, type: 3}
+  m_Name: WaitNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 37851f41546e56a4197774f7b31d686d
+  position: {x: 196, y: 1324}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  waitDuration: 3
+--- !u!114 &9119331898561361264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a36a24581258b72408170bb8c0f871a3, type: 3}
+  m_Name: ChangeFeedbackTextNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 43d55e1373b511d4ab131599d86f1150
+  position: {x: -2083, y: 1825}
+  blackboard:
+    agentObject: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    targetObject: {fileID: 0}
+    navMeshAgent: {fileID: 0}
+    aiAgent: {fileID: 0}
+    agentSpeed: 0
+    healthComponent: {fileID: 0}
+    instantiateData: {fileID: 0}
+    hunger: 120
+    hungerIndicator: 8
+    confidenceLevel: 0
+  agent: {fileID: 0}
+  newText: Attack!
